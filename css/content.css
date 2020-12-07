@@ -1,0 +1,211 @@
+/* For small screens */
+@media (max-width:599px) {
+    .content-section {
+        grid-area: content;
+    }
+
+    div.content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+    .post-title {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .post-title a {
+        text-decoration: none;
+        color: #92817a;
+    }
+
+    .dotted-line {
+        width: 65%;
+        border: 0;
+        border-top: 0.5rem dotted darkGray;
+        margin: 2rem auto;
+    }
+
+    .post-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* margin-top: 0; */
+        opacity: 0.3;
+    }
+
+    .post-info h5 {
+        margin-top: 0;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1rem
+    }
+
+    .post-images {
+        width: 100%;
+        /* position: relative;
+        align-items: center; */
+    }
+
+    .post-body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        line-height: 2.5rem;
+        text-align: justify;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buttons p {
+        margin: 4px 0 0 0;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+    }
+
+    .buttons a:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+
+    .buttons i {
+        font-size: 40px;
+    }
+
+    .seperator {
+        border-color: #214252;
+        width: 100%;
+        border-style: dashed;
+        opacity: 0.5;
+    }
+
+    /* Once we can post dynamiclly, we'll have to
+    style and change how the order of posts' behave */
+    /* .first-post {}
+
+    .middle-posts {}
+
+    .last-post {} */
+}
+
+/* For iPad/larg-ish screens */
+@media(min-width:600px) and (max-width:900px) {
+    .content-section {
+        grid-area: content;
+    }
+
+    div.content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .post-title {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .post-title a {
+        text-decoration: none;
+        color: #92817a;
+    }
+
+    .dotted-line {
+        width: 65%;
+        border: 0;
+        border-top: 0.5rem dotted darkGray;
+        margin: 2rem auto;
+    }
+
+    .post-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* margin-top: 0; */
+        opacity: 0.3;
+    }
+
+    .post-info h5 {
+        margin-top: 0;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1rem
+    }
+
+    .post-images {
+        width: 50%;
+        height: 50%;
+        display: none;
+        /* position: relative;
+        align-items: center; */
+    }
+
+    .post-body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        line-height: 2.5rem;
+        text-align: justify;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buttons p {
+        margin: 4px 0 0 0;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+    }
+
+    .buttons a:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+
+    .buttons i {
+        font-size: 40px;
+    }
+
+    .seperator {
+        border-color: #214252;
+        width: 100%;
+        border-style: dashed;
+        opacity: 0.5;
+    }
+}
+
+/* For larg screens */
+@media(min-width:901px) {}

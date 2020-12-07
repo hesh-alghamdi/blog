@@ -1,0 +1,98 @@
+/* For small screens */
+@media (max-width:599px) {
+    .sidebar-section {
+        grid-area: sidebar;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sidebar {
+        padding: 1rem;
+    }
+
+    .personal-photo {
+        width: 40%;
+    }
+
+    .sidebar h4 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .sidebar p {
+        padding: 0 1rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    .social .lab {
+        font-size: 2.8rem;
+        padding: 0;
+        color: black;
+    }
+
+    .social .lab:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+}
+
+/* For iPad/larg-ish screens */
+@media(min-width:600px) and (max-width:900px) {
+    .sidebar-section {
+        grid-area: sidebar;
+    }
+
+    .sidebar {
+        padding: 1rem;
+    }
+
+    .personal-photo {
+        width: 40%;
+    }
+
+    .sidebar h4 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .sidebar p {
+        padding: 0 1rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    .social .lab {
+        font-size: 2.8rem;
+        padding: 0;
+        color: black;
+    }
+
+    .social .lab:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+}
+}
+
+/* For larg screens */
+@media(min-width:901px) {}
