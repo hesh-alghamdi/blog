@@ -17,7 +17,7 @@
     .brand {
         grid-area: brand;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: auto auto;
         grid-template-rows: auto;
         grid-template-areas: "logo""name";
         /* grid-gap: 0.5em; */
@@ -26,13 +26,16 @@
     .logo {
         grid-area: logo;
         margin: 1.9rem;
-        width: 45%;
+        width: 100px;
+        height: 100px;
     }
 
     .title {
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
-        font-size: 9vw;
+        font-size: 1.9em;
+        margin: auto;
+        text-align: center;
     }
 
     .nav-bottons {
@@ -44,7 +47,6 @@
     }
 
     .nav-bottons a {
-        /* font-size: 24px; */
         display: flex;
         text-decoration: none;
         border: 2px hidden;
@@ -87,16 +89,17 @@
     .logo {
         grid-area: logo;
         margin: 1.9rem;
-        width: 20%;
+        width: 100px;
+        height: 100px;
     }
 
     .title {
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
-        font-size: 5vw;
+        font-size: 1.8em;
         margin: 0;
         align-self: center;
-        text-align: left;
+        text-align: center;
     }
 
     .nav-bottons {
@@ -105,11 +108,9 @@
         justify-content: space-between;
         align-self: center;
         margin: 0;
-        padding-right: 4vw;
     }
 
     .nav-bottons a {
-        /* font-size: 24px; */
         text-decoration: none;
         border: 2px hidden;
         border-radius: 50%;

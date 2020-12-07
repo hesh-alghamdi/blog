@@ -19,7 +19,7 @@
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 7.5vw;
+        font-size: 1.6em;
         text-align: center;
     }
 
@@ -46,7 +46,7 @@
     .post-info h5 {
         margin-top: 0;
         font-family: 'Roboto Slab', serif;
-        font-size: 2.5vw;
+        font-size: 0.6em;
     }
 
     .post-images {
@@ -58,7 +58,7 @@
         font-weight: bold;
         line-height: 2.5rem;
         text-align: justify;
-        font-size: 5.2vw;
+        font-size: 1em;
     }
 
     .buttons {
@@ -127,7 +127,7 @@
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.8em;
         text-align: center;
     }
 
@@ -154,7 +154,7 @@
     .post-info h5 {
         margin-bottom: 0.5rem;
         font-family: 'Roboto Slab', serif;
-        font-size: 0.8rem;
+        font-size: 0.6em;
     }
 
     .post-images {
@@ -167,7 +167,7 @@
         font-weight: bold;
         line-height: 2.5rem;
         text-align: justify;
-        font-size: 1.3rem;
+        font-size: 1em;
     }
 
     .buttons {
@@ -177,15 +177,15 @@
     }
 
     .buttons p {
-        margin: 4px 0 0 0;
-        font-size: 1.2rem;
+        margin: auto;
+        font-size: 0.8em;
         font-family: 'Open Sans Condensed', sans-serif;
     }
 
     .buttons a {
         text-decoration: none;
         color: black;
-        margin: 0 5px;
+        margin: auto;
     }
 
     .buttons a:hover {
@@ -194,7 +194,7 @@
     }
 
     .buttons i {
-        font-size: 40px;
+        font-size: 2em;
     }
 
     .seperator {
