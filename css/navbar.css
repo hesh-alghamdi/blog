@@ -26,19 +26,18 @@
     .logo {
         grid-area: logo;
         margin: 1.9rem;
-        width: 6rem;
-        height: 6rem;
+        width: 60%;
     }
 
     .title {
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
-        font-size: 1.8em;
+        font-size: 8.2vw;
     }
 
     .nav-bottons {
         display: grid;
-        margin-top: 2rem;
+        margin-top: 1rem;
         grid-area: navbar;
         display: flex;
         justify-content: space-evenly;
@@ -60,6 +59,7 @@
     }
 }
 
+/* -------------------------------------------------------- */
 /* For iPad/larg-ish screens */
 @media(min-width:600px) and (max-width:900px) {
 
@@ -79,22 +79,22 @@
         grid-area: brand;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .logo {
         grid-area: logo;
         margin: 1.9rem;
-        width: 5rem;
-        height: 5rem;
+        width: 20%;
     }
 
     .title {
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
-        font-size: 1.4em;
+        font-size: 5vw;
         margin: 0;
         align-self: center;
+        text-align: left;
     }
 
     .nav-bottons {
@@ -103,6 +103,7 @@
         justify-content: space-between;
         align-self: center;
         margin: 0;
+        padding-right: 4vw;
     }
 
     .nav-bottons a {
@@ -122,5 +123,6 @@
     }
 }
 
+/* -------------------------------------------------------- */
 /* For larg screens */
 @media(min-width:901px) {}

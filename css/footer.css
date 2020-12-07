@@ -77,6 +77,10 @@
         text-align: justify;
     }
 
+    #email {
+        font-size: 0.9rem;
+    }
+
     .credit {
         grid-area: credit;
     }

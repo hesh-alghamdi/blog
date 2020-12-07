@@ -19,7 +19,7 @@
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 7.5vw;
         text-align: center;
     }
 
@@ -46,7 +46,7 @@
     .post-info h5 {
         margin-top: 0;
         font-family: 'Roboto Slab', serif;
-        font-size: 1rem
+        font-size: 3.5vw;
     }
 
     .post-images {
@@ -60,6 +60,7 @@
         font-weight: bold;
         line-height: 2.5rem;
         text-align: justify;
+        font-size: 5.2vw;
     }
 
     .buttons {
@@ -105,6 +106,7 @@
     .last-post {} */
 }
 
+/* -------------------------------------------------------- */
 /* For iPad/larg-ish screens */
 @media(min-width:600px) and (max-width:900px) {
     .content-section {
@@ -127,7 +129,7 @@
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 4.5vw;
         text-align: center;
     }
 
@@ -140,7 +142,7 @@
         width: 65%;
         border: 0;
         border-top: 0.5rem dotted darkGray;
-        margin: 2rem auto;
+        margin: 1.5rem auto 1 auto;
     }
 
     .post-info {
@@ -152,17 +154,14 @@
     }
 
     .post-info h5 {
-        margin-top: 0;
+        margin-bottom: 0.5rem;
         font-family: 'Roboto Slab', serif;
-        font-size: 1rem
+        font-size: 2vw;
     }
 
     .post-images {
-        width: 50%;
-        height: 50%;
-        display: none;
-        /* position: relative;
-        align-items: center; */
+        width: 100%;
+        margin-top: 1rem;
     }
 
     .post-body {
@@ -170,6 +169,7 @@
         font-weight: bold;
         line-height: 2.5rem;
         text-align: justify;
+        font-size: 3.2vw;
     }
 
     .buttons {
@@ -204,8 +204,10 @@
         width: 100%;
         border-style: dashed;
         opacity: 0.5;
+        margin-bottom: 1.5rem;
     }
 }
 
+/* -------------------------------------------------------- */
 /* For larg screens */
 @media(min-width:901px) {}

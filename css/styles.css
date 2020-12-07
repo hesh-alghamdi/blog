@@ -4,11 +4,13 @@
 @import url(footer.css);
 
 body {
-    background-color: #d0e8f2 !important;
+    background-color: #d0e8f2;
+    align-self: center;
 }
 
 @media (max-width:599px) {
     .container {
+        width: 100%;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
@@ -31,6 +33,8 @@ body {
 /* For iPad/larg-ish screens */
 @media(min-width:600px) and (max-width:900px) {
     .container {
+        position: relative;
+        width: 91%;
         display: grid;
         grid-template-columns: repeat(5, 20%);
         grid-template-rows: 15% 65% 20%;
@@ -38,10 +42,9 @@ body {
             "header header header header header"
             "content content content sidebar sidebar"
             "footer footer footer footer footer";
-        align-self: auto;
-        grid-gap: 2em;
+        grid-gap: 1em;
         margin: 0;
-        padding: 0.8em 1.6em;
+        /* padding: 0.8em 1.6em; */
     }
 
     .box {

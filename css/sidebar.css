@@ -18,7 +18,7 @@
     .sidebar h4 {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2.2rem;
+        font-size: 6.5vw;
         text-align: center;
     }
 
@@ -26,6 +26,7 @@
         padding: 0 1rem;
         line-height: 2rem;
         text-align: justify;
+        font-size: 4.2vw;
     }
 
     .social {
@@ -47,6 +48,7 @@
     }
 }
 
+/* -------------------------------------------------------- */
 /* For iPad/larg-ish screens */
 @media(min-width:600px) and (max-width:900px) {
     .sidebar-section {
@@ -58,13 +60,13 @@
     }
 
     .personal-photo {
-        width: 40%;
+        width: 60%;
     }
 
     .sidebar h4 {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2.2rem;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -72,17 +74,18 @@
         padding: 0 1rem;
         line-height: 2rem;
         text-align: justify;
+        font-size: 1.3rem;
     }
 
     .social {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 2rem;
+        flex-flow: row;
+        justify-content: space-evenly;
+        padding: auto;
     }
 
     .social .lab {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         padding: 0;
         color: black;
     }
@@ -92,7 +95,7 @@
         color: gray;
     }
 }
-}
 
+/* -------------------------------------------------------- */
 /* For larg screens */
 @media(min-width:901px) {}
