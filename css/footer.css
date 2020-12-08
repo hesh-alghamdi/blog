@@ -28,7 +28,7 @@
 
     .footer div div h6 {
         font-family: 'Roboto Slab', serif;
-        font-size: 1.1em;
+        font-size: 5vw;
         text-align: left;
         margin: 0 0 1rem 0;
     }
@@ -43,7 +43,7 @@
         text-decoration: none;
         color: black;
         font-family: 'Roboto Slab', serif;
-        font-size: 1rem;
+        font-size: 3.9vw;
     }
 
     .footer div div ul li a:hover {
