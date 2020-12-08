@@ -33,11 +33,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 2rem;
     }
 
     .social .lab {
-        font-size: 3em;
+        font-size: 2.8em;
         padding: 0;
         color: black;
     }
@@ -77,18 +76,16 @@
         font-size: 0.8em;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 900;
-        font
     }
 
     .social {
         display: flex;
-        flex-flow: row;
-        justify-content: space-evenly;
-        padding: auto;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
 
     .social .lab {
-        font-size: 1.5em;
+        font-size: 2em;
         padding: 0;
         color: black;
     }
