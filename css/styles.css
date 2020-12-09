@@ -59,12 +59,12 @@ body {
 @media(min-width:901px) {
     .container {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: auto auto auto;
         grid-template-areas:
-            "header header header header header"
-            "content content content sidebar sidebar"
-            "footer footer footer footer footer";
+            "header header header header header header"
+            "content content content content sidebar sidebar"
+            "footer footer footer footer footer footer";
         grid-gap: 1rem;
         margin: 1em;
     }

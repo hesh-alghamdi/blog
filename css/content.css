@@ -51,6 +51,7 @@
 
     .post-images {
         width: 100%;
+        border-radius: 12px;
     }
 
     .post-body {
@@ -160,6 +161,7 @@
     .post-images {
         width: 100%;
         margin-top: 1rem;
+        border-radius: 12px;
     }
 
     .post-body {
@@ -213,24 +215,31 @@
         grid-area: content;
     }
 
-    div.content {
-        padding: 2rem;
+    .content {
         display: flex;
-        flex-direction: column;
+        background-color: transparent !important;
+        padding: 0;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
 
     .posts {
+        width: 43%;
+        height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0.8em;
+        margin-bottom: 0.8em;
+        background-color: #bedbbb;
+        border-radius: 12px;
     }
 
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 1.8em;
-        text-align: center;
+        font-size: 1.2em;
+        text-align: left;
     }
 
     .post-title a {
@@ -239,7 +248,7 @@
     }
 
     .dotted-line {
-        width: 65%;
+        width: 100%;
         border: 0;
         border-top: 0.5rem dotted darkGray;
         margin: 1.5rem auto 1 auto;
@@ -262,6 +271,7 @@
     .post-images {
         width: 100%;
         margin-top: 1rem;
+        border-radius: 12px;
     }
 
     .post-body {
@@ -300,10 +310,16 @@
     }
 
     .seperator {
-        border-color: #214252;
+        /* border-color: #214252;
         width: 100%;
         border-style: dashed;
-        opacity: 0.5;
-        margin-bottom: 1.5rem;
+        opacity: 0.5;*/
+        display: none;
     }
+
+    .first-post {}
+
+    .middle-posts {}
+
+    .last-post {}
 }
