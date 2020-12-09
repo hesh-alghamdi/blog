@@ -18,7 +18,7 @@
     .sidebar h4 {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 2.6rem;
+        font-size: 1.6em;
         text-align: center;
     }
 
@@ -98,4 +98,49 @@
 
 /* -------------------------------------------------------- */
 /* For larg screens */
-@media(min-width:901px) {}
+@media(min-width:901px) {
+    .sidebar-section {
+        grid-area: sidebar;
+    }
+
+    .sidebar {
+        padding: 1rem;
+    }
+
+    .personal-photo {
+        width: 60%;
+    }
+
+    .sidebar h4 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .sidebar p {
+        padding: 0 1rem;
+        line-height: 2rem;
+        text-align: justify;
+        font-size: 0.8em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 900;
+    }
+
+    .social {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .social .lab {
+        font-size: 2em;
+        padding: 0;
+        color: black;
+    }
+
+    .social .lab:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+}

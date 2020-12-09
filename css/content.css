@@ -208,4 +208,102 @@
 
 /* -------------------------------------------------------- */
 /* For larg screens */
-@media(min-width:901px) {}
+@media(min-width:901px) {
+    .content-section {
+        grid-area: content;
+    }
+
+    div.content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .post-title {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .post-title a {
+        text-decoration: none;
+        color: #92817a;
+    }
+
+    .dotted-line {
+        width: 65%;
+        border: 0;
+        border-top: 0.5rem dotted darkGray;
+        margin: 1.5rem auto 1 auto;
+    }
+
+    .post-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* margin-top: 0; */
+        opacity: 0.3;
+    }
+
+    .post-info h5 {
+        margin-bottom: 0.5rem;
+        font-family: 'Roboto Slab', serif;
+        font-size: 0.6em;
+    }
+
+    .post-images {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .post-body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        line-height: 2.5rem;
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buttons p {
+        margin: auto;
+        font-size: 0.8em;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        color: black;
+        margin: auto;
+    }
+
+    .buttons a:hover {
+        transition: all 0.3s ease;
+        color: gray;
+    }
+
+    .buttons i {
+        font-size: 2em;
+    }
+
+    .seperator {
+        border-color: #214252;
+        width: 100%;
+        border-style: dashed;
+        opacity: 0.5;
+        margin-bottom: 1.5rem;
+    }
+}
