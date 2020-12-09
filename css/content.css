@@ -4,18 +4,25 @@
         grid-area: content;
     }
 
-    div.content {
-        padding: 2rem;
+    .content {
         display: flex;
-        flex-direction: column;
+        background-color: transparent !important;
+        padding: 0;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
 
-    /* .posts {
+    .posts {
+        height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    } */
+        padding: 1.4em;
+        margin-bottom: 0.8em;
+        background-color: #bedbbb;
+        border-radius: 12px;
+    }
+
     .post-title {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
@@ -89,13 +96,6 @@
         font-size: 40px;
     }
 
-    .seperator {
-        border-color: #214252;
-        width: 100%;
-        border-style: dashed;
-        opacity: 0.5;
-    }
-
     /* Once we can post dynamiclly, we'll have to
     style and change how the order of posts' behave */
     /* .first-post {}
@@ -112,17 +112,23 @@
         grid-area: content;
     }
 
-    div.content {
-        padding: 2rem;
+    .content {
         display: flex;
-        flex-direction: column;
+        background-color: transparent !important;
+        padding: 0;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
 
     .posts {
+        height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 1.4em;
+        margin-bottom: 0.8em;
+        background-color: #bedbbb;
+        border-radius: 12px;
     }
 
     .post-title {
@@ -199,13 +205,13 @@
         font-size: 2em;
     }
 
-    .seperator {
-        border-color: #214252;
-        width: 100%;
-        border-style: dashed;
-        opacity: 0.5;
-        margin-bottom: 1.5rem;
-    }
+    /* Once we can post dynamiclly, we'll have to
+    style and change how the order of posts' behave */
+    /* .first-post {}
+
+    .middle-posts {}
+
+    .last-post {} */
 }
 
 /* -------------------------------------------------------- */
@@ -224,7 +230,7 @@
     }
 
     .posts {
-        width: 40%;
+        flex: 0 39%;
         height: max-content;
         display: flex;
         flex-direction: column;
@@ -309,17 +315,11 @@
         font-size: 2em;
     }
 
-    .seperator {
-        /* border-color: #214252;
-        width: 100%;
-        border-style: dashed;
-        opacity: 0.5;*/
-        display: none;
-    }
-
-    .first-post {}
+    /* Once we can post dynamiclly, we'll have to
+    style and change how the order of posts' behave */
+    /* .first-post {}
 
     .middle-posts {}
 
-    .last-post {}
+    .last-post {} */
 }
