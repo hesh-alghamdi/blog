@@ -8,8 +8,8 @@ A personal blog that I created from scratch to test my abilities on:
 # Thing already done (Might change later)
 - Mobile layout
 - Tablet layout
+- Wide screen layout
 
 # TO-DO list
-- Wide screen layout
 - Post page example
 - Find a better use for white spaces
