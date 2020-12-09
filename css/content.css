@@ -224,12 +224,12 @@
     }
 
     .posts {
-        width: 43%;
+        width: 40%;
         height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0.8em;
+        padding: 1.4em;
         margin-bottom: 0.8em;
         background-color: #bedbbb;
         border-radius: 12px;

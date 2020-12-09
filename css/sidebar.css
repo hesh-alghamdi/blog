@@ -101,10 +101,12 @@
 @media(min-width:901px) {
     .sidebar-section {
         grid-area: sidebar;
+        width: 100%;
+        align-self:
     }
 
     .sidebar {
-        padding: 1rem;
+        padding: 1em;
         height: max-content;
     }
 
