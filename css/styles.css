@@ -11,7 +11,14 @@ body {
     padding: 0;
 }
 
-@media (max-width:599px) {
+.box {
+    background-color: #bedbbb;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+@media (max-width:600px) {
     .container {
         display: grid;
         grid-template-columns: 100%;
@@ -24,55 +31,34 @@ body {
         grid-gap: 0.8rem;
         margin: 1em;
     }
-
-    .box {
-        background-color: #bedbbb;
-        border-radius: 12px;
-        text-align: center;
-        font-size: 1.5em;
-    }
 }
 
 /* For iPad/larg-ish screens */
-@media(min-width:600px) and (max-width:900px) {
+@media(min-width:601px) {
     .container {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: auto auto auto;
         grid-template-areas:
-            "header header header header header"
-            "content content content sidebar sidebar"
-            "footer footer footer footer footer";
+            "header header header header header header"
+            "content content content content sidebar sidebar"
+            "footer footer footer footer footer footer";
         grid-gap: 1rem;
         margin: 1em;
-    }
-
-    .box {
-        background-color: #bedbbb;
-        border-radius: 12px;
-        text-align: center;
-        font-size: 1.3em;
     }
 }
 
 /* For larg screens */
-@media(min-width:901px) {
+@media(min-width:1577px) {
     .container {
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: auto auto auto;
         grid-template-areas:
-            "header header header header header header header"
-            "content content content content content sidebar sidebar"
-            "footer footer footer footer footer footer footer";
+            "header header header header header header header  header"
+            "content content content content content content sidebar sidebar"
+            "footer footer footer footer footer footer footer footer";
         grid-gap: 1rem;
         margin: 1em;
-    }
-
-    .box {
-        background-color: #bedbbb;
-        border-radius: 12px;
-        text-align: center;
-        font-size: 1.3em;
     }
 }

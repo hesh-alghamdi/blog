@@ -1,325 +1,107 @@
-/* For small screens */
-@media (max-width:599px) {
-    .content-section {
-        grid-area: content;
-    }
-
-    .content {
-        display: flex;
-        background-color: transparent !important;
-        padding: 0;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-
-    .posts {
-        height: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1.4em;
-        margin-bottom: 0.8em;
-        background-color: #bedbbb;
-        border-radius: 12px;
-    }
-
-    .post-title {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 500;
-        font-size: 1.6em;
-        text-align: center;
-    }
-
-    .post-title a {
-        text-decoration: none;
-        color: #92817a;
-    }
-
-    .dotted-line {
-        width: 65%;
-        border: 0;
-        border-top: 0.5rem dotted darkGray;
-        margin: 2rem auto;
-    }
-
-    .post-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* margin-top: 0; */
-        opacity: 0.3;
-    }
-
-    .post-info h5 {
-        margin-top: 0;
-        font-family: 'Roboto Slab', serif;
-        font-size: 0.6em;
-    }
-
-    .post-images {
-        width: 100%;
-        border-radius: 12px;
-    }
-
-    .post-body {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: bold;
-        line-height: 2.5rem;
-        text-align: justify;
-        font-size: 1em;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .buttons p {
-        margin: 4px 0 0 0;
-        font-size: 1.2rem;
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-
-    .buttons a {
-        text-decoration: none;
-        color: black;
-        margin: 0 5px;
-    }
-
-    .buttons a:hover {
-        transition: all 0.3s ease;
-        color: gray;
-    }
-
-    .buttons i {
-        font-size: 40px;
-    }
-
-    /* Once we can post dynamiclly, we'll have to
-    style and change how the order of posts' behave */
-    /* .first-post {}
-
-    .middle-posts {}
-
-    .last-post {} */
+.content-section {
+    grid-area: content;
 }
 
-/* -------------------------------------------------------- */
-/* For iPad/larg-ish screens */
-@media(min-width:600px) and (max-width:900px) {
-    .content-section {
-        grid-area: content;
-    }
-
-    .content {
-        display: flex;
-        background-color: transparent !important;
-        padding: 0;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-
-    .posts {
-        height: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1.4em;
-        margin-bottom: 0.8em;
-        background-color: #bedbbb;
-        border-radius: 12px;
-    }
-
-    .post-title {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 500;
-        font-size: 1.8em;
-        text-align: center;
-    }
-
-    .post-title a {
-        text-decoration: none;
-        color: #92817a;
-    }
-
-    .dotted-line {
-        width: 65%;
-        border: 0;
-        border-top: 0.5rem dotted darkGray;
-        margin: 1.5rem auto 1 auto;
-    }
-
-    .post-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* margin-top: 0; */
-        opacity: 0.3;
-    }
-
-    .post-info h5 {
-        margin-bottom: 0.5rem;
-        font-family: 'Roboto Slab', serif;
-        font-size: 0.6em;
-    }
-
-    .post-images {
-        width: 100%;
-        margin-top: 1rem;
-        border-radius: 12px;
-    }
-
-    .post-body {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: bold;
-        line-height: 2.5rem;
-        text-align: justify;
-        font-size: 1em;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .buttons p {
-        margin: auto;
-        font-size: 0.8em;
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-
-    .buttons a {
-        text-decoration: none;
-        color: black;
-        margin: auto;
-    }
-
-    .buttons a:hover {
-        transition: all 0.3s ease;
-        color: gray;
-    }
-
-    .buttons i {
-        font-size: 2em;
-    }
-
-    /* Once we can post dynamiclly, we'll have to
-    style and change how the order of posts' behave */
-    /* .first-post {}
-
-    .middle-posts {}
-
-    .last-post {} */
+.content {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    background-color: transparent !important;
+    padding: 0;
+    grid-gap: 1em;
 }
 
-/* -------------------------------------------------------- */
-/* For larg screens */
-@media(min-width:901px) {
-    .content-section {
-        grid-area: content;
-    }
-
+@media(min-width:1200px) {
     .content {
-        display: flex;
+        display: grid;
+        align-items: flex-start;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
         background-color: transparent !important;
         padding: 0;
-        flex-flow: row wrap;
-        justify-content: space-between;
+        grid-gap: 1em;
     }
+}
 
-    .posts {
-        flex: 0 39%;
-        height: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1.4em;
-        margin-bottom: 0.8em;
-        background-color: #bedbbb;
-        border-radius: 12px;
-    }
+.posts {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.4em;
+    margin-bottom: 0.8em;
+    background-color: #bedbbb;
+    border-radius: 12px;
+}
 
-    .post-title {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 500;
-        font-size: 1.2em;
-        text-align: left;
-    }
+.post-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: left;
+}
 
-    .post-title a {
-        text-decoration: none;
-        color: #92817a;
-    }
+.post-title a {
+    text-decoration: none;
+    color: #92817a;
+}
 
-    .dotted-line {
-        width: 100%;
-        border: 0;
-        border-top: 0.5rem dotted darkGray;
-        margin: 1.5rem auto 1 auto;
-    }
+.dotted-line {
+    width: 100%;
+    border: 0;
+    border-top: 0.5rem dotted darkGray;
+    margin: 1.5rem auto 1 auto;
+}
 
-    .post-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* margin-top: 0; */
-        opacity: 0.3;
-    }
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.3;
+}
 
-    .post-info h5 {
-        margin-bottom: 0.5rem;
-        font-family: 'Roboto Slab', serif;
-        font-size: 0.6em;
-    }
+.post-info h5 {
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.5em;
+}
 
-    .post-images {
-        width: 100%;
-        margin-top: 1rem;
-        border-radius: 12px;
-    }
+.post-images {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
 
-    .post-body {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: bold;
-        line-height: 2.5rem;
-        text-align: justify;
-        font-size: 1em;
-    }
+.post-body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-size: 0.8em;
+}
 
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
-    .buttons p {
-        margin: auto;
-        font-size: 0.8em;
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
+.buttons p {
+    margin: auto;
+    font-size: 0.8em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
-    .buttons a {
-        text-decoration: none;
-        color: black;
-        margin: auto;
-    }
+.buttons a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
 
-    .buttons a:hover {
-        transition: all 0.3s ease;
-        color: gray;
-    }
+.buttons a:hover {
+    transition: all 0.3s ease;
+    color: gray;
+}
 
-    .buttons i {
-        font-size: 2em;
-    }
-
-    /* Once we can post dynamiclly, we'll have to
-    style and change how the order of posts' behave */
-    /* .first-post {}
-
-    .middle-posts {}
-
-    .last-post {} */
+.buttons i {
+    font-size: 2em;
 }
