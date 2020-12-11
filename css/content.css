@@ -45,6 +45,12 @@
     color: #92817a;
 }
 
+.post-title a:hover {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: darkGray;
+}
+
 .dotted-line {
     width: 100%;
     border: 0;

@@ -1,0 +1,152 @@
+.post {
+    grid-area: post;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, fit-content());
+    grid-template-areas:
+        "post-body"
+        "author"
+        "comment-section";
+    grid-gap: 2em;
+}
+
+.post-body {
+    grid-area: post-body;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1em;
+}
+
+.post-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #92817a;
+}
+
+.seperator {
+    width: 100%;
+    border: 0;
+    border-top: 0.3em dotted darkGray;
+    margin: 1.5rem auto 1 auto;
+}
+
+.post-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.6em;
+    opacity: 0.4;
+    margin: 0;
+}
+
+.post-images {
+    width: 100%;
+    max-width: 550px;
+    margin: 1rem 0;
+    border-radius: 12px;
+    align-self: center;
+}
+
+.post-body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.quote {
+    background: darkGray;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons p {
+    margin: auto;
+    font-size: 0.8em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+.buttons a:hover {
+    transition: all 0.3s ease;
+    color: gray;
+}
+
+.buttons i {
+    font-size: 2em;
+}
+
+.author-box {
+    grid-area: author;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+/* image for small screens */
+.author-image {
+    width: 5.2em;
+    max-width: 175px;
+    align-self: center;
+    margin-right: 1em;
+}
+
+.about-author {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: justify;
+    font-size: large;
+}
+
+.about-author div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.author-name,
+.author-tag {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+}
+
+.author-tag {
+    opacity: 0.4;
+}
+
+.author-description {
+    grid-area: description;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
