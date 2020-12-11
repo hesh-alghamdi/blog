@@ -9,7 +9,7 @@ A personal blog that I created from scratch to test my abilities on:
 - Mobile layout
 - Tablet layout
 - Wide screen layout
+- Post page example
 
 # TO-DO list
-- Post page example
-- Find a better use for white spaces
+- Add fake comment section
