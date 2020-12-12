@@ -1,7 +1,7 @@
-@import url(navbar.css);
-@import url(content.css);
-@import url(sidebar.css);
-@import url(footer.css);
+@import url(common/navbar.css);
+@import url(change/content.css);
+@import url(common/sidebar.css);
+@import url(common/footer.css);
 
 body {
     background-color: #cfd3ce;
