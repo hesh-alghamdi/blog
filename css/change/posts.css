@@ -60,9 +60,13 @@
     font-size: 0.8em;
 }
 
-figcaption {
+figure {
     text-align: center;
+}
+
+figcaption {
     opacity: 0.5;
+    text-align: center;
 }
 
 .quote {
