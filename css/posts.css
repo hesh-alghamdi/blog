@@ -1,8 +1,9 @@
+/* Grid layout */
 .post {
     grid-area: post;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, fit-content());
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
         "post-body"
         "author"
@@ -10,6 +11,7 @@
     grid-gap: 2em;
 }
 
+/* Post Title/Body */
 .post-body {
     grid-area: post-body;
     display: flex;
@@ -102,6 +104,7 @@
     font-size: 2em;
 }
 
+/* Author section */
 .author-box {
     grid-area: author;
     display: inline-flex;
@@ -109,7 +112,6 @@
     padding: 0.8em;
 }
 
-/* image for small screens */
 .author-image {
     width: 5.2em;
     max-width: 175px;
@@ -149,4 +151,49 @@
     font-size: 1em;
     font-weight: 600;
     margin-bottom: 0;
+}
+
+/* Comment section */
+#comment-section {
+    grid-area: comment-section;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em;
+}
+
+h4 {
+    font: 1.5em "Open Sans Condensed", cursive, sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+table {
+    margin-top: 0.8em;
+    border-spacing: 0.5em;
+}
+
+td {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 0.6em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+input,
+textarea {
+    letter-spacing: 2px;
+    overflow: auto;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding: 0 0.5em;
+}
+
+#button-cell {
+    text-align: end;
+}
+
+#submit-button {
+    width: auto;
 }
