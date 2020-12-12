@@ -12,4 +12,4 @@ A personal blog that I created from scratch to test my abilities on:
 - Post page example
 
 # TO-DO list
-- Add fake comment section
+- Color scheme
