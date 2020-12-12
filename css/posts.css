@@ -190,6 +190,11 @@ textarea {
     padding: 0 0.5em;
 }
 
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
 #button-cell {
     text-align: end;
 }
