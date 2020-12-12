@@ -3,7 +3,7 @@ A personal blog that I created from scratch to test my abilities on:
 - Flexbox
 - Grid
 
-**I will keep updating the repository. Still not done, but want to test it while coding :D**
+**Done :)**
 
 # Thing already done (Might change later)
 - Mobile layout
@@ -12,4 +12,4 @@ A personal blog that I created from scratch to test my abilities on:
 - Post page example
 
 # TO-DO list
-- Color scheme
+**I will try to update and add new things I learn through my course duration**
