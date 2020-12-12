@@ -23,7 +23,7 @@
 
     .header a {
         text-decoration: none;
-        color: black;
+        color: #f4f4f2;
     }
 
     .logo {
@@ -51,7 +51,6 @@
         justify-content: space-between;
         text-decoration: none;
         border-radius: 50%;
-        color: black;
         font-size: 8vw;
     }
 
@@ -79,7 +78,7 @@
     /* Brand Section */
     .header a {
         text-decoration: none;
-        color: black;
+        color: #f4f4f2;
     }
 
     .brand {
@@ -118,7 +117,6 @@
         text-decoration: none;
         border-radius: 50%;
         margin: 0 0.5em;
-        color: black;
         font-size: 2.2em;
     }
 

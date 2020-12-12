@@ -4,7 +4,7 @@
 @import url(footer.css);
 
 body {
-    background-color: #d0e8f2;
+    background-color: #cfd3ce;
     width: 100%;
     border: 0;
     margin: 0;
@@ -12,9 +12,10 @@ body {
 }
 
 .box {
-    background-color: #bedbbb;
+    background-color: #495464;
     border-radius: 12px;
     font-size: 1.4em;
+    color: #f4f4f2;
 }
 
 @media (max-width:600px) {

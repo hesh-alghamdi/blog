@@ -41,12 +41,12 @@
     .social .lab {
         font-size: 8.8vw;
         padding: 0;
-        color: black;
+        color: #f4f4f2;
     }
 
     .social .lab:hover {
         transition: all 0.3s ease;
-        color: gray;
+        color: darkGray;
     }
 }
 
@@ -94,11 +94,11 @@
     .social .lab {
         font-size: 2em;
         padding: 0;
-        color: black;
+        color: #f4f4f2;
     }
 
     .social .lab:hover {
         transition: all 0.3s ease;
-        color: gray;
+        color: darkGray;
     }
 }

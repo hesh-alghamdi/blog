@@ -30,6 +30,7 @@
         margin: 1rem 0;
         font-family: 'Roboto Slab', serif;
         font-size: 0.9em;
+        color: #bbbfca;
     }
 
     .footer div div ul {
@@ -40,7 +41,7 @@
 
     .footer div div ul li a {
         text-decoration: none;
-        color: black;
+        color: #f4f4f2;
         font-family: 'Roboto Slab', serif;
         font-size: 1rem;
     }

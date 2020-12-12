@@ -29,7 +29,6 @@
     justify-content: center;
     padding: 1.4em;
     margin-bottom: 0.8em;
-    background-color: #bedbbb;
     border-radius: 12px;
 }
 
@@ -42,7 +41,7 @@
 
 .post-title a {
     text-decoration: none;
-    color: #92817a;
+    color: #bbbfca;
 }
 
 .post-title a:hover {
@@ -77,12 +76,27 @@
     border-radius: 12px;
 }
 
-.post-body {
+.post-body, figcaption {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
     line-height: 2.5rem;
     text-align: justify;
     font-size: 0.8em;
+}
+
+figcaption {
+    align-self: center;
+    opacity: 0.5;
+}
+
+span a {
+    text-decoration: none;
+    color: #bbbfca;
+}
+
+span a:hover {
+    transition: all 0.3s ease;
+    color: darkGray;
 }
 
 .buttons {
@@ -99,13 +113,13 @@
 
 .buttons a {
     text-decoration: none;
-    color: black;
+    color: #f4f4f2;
     margin: auto;
 }
 
 .buttons a:hover {
     transition: all 0.3s ease;
-    color: gray;
+    color: darkgray;
 }
 
 .buttons i {

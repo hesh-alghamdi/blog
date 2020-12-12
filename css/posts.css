@@ -24,13 +24,13 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     font-size: 1.2em;
-    color: #92817a;
+    color: #bbbfca;
 }
 
 .seperator {
     width: 100%;
     border: 0;
-    border-top: 0.3em dotted darkGray;
+    border-top: 0.5rem dotted darkGray;
     margin: 1.5rem auto 1 auto;
 }
 
@@ -40,7 +40,7 @@
     justify-content: space-between;
     font-family: 'Roboto Slab', serif;
     font-size: 0.6em;
-    opacity: 0.4;
+    opacity: 0.6;
     margin: 0;
 }
 
@@ -52,12 +52,17 @@
     align-self: center;
 }
 
-.post-body {
+.post-body, figcaption {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
     line-height: 2.5rem;
     text-align: justify;
     font-size: 0.8em;
+}
+
+figcaption {
+    align-self: center;
+    opacity: 0.5;
 }
 
 .quote {
@@ -66,6 +71,7 @@
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    color: black;
 }
 
 .quote:before {
@@ -91,13 +97,13 @@
 
 .buttons a {
     text-decoration: none;
-    color: black;
+    color: #f4f4f2;
     margin: auto;
 }
 
 .buttons a:hover {
     transition: all 0.3s ease;
-    color: gray;
+    color: darkgray;
 }
 
 .buttons i {
@@ -188,6 +194,7 @@ textarea {
     border: none;
     border-radius: 12px;
     padding: 0 0.5em;
+    background-color: #bbbfca;
 }
 
 input:focus,
