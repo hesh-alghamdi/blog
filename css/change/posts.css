@@ -54,13 +54,12 @@
 
 .post-body, figcaption {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
     line-height: 2.5rem;
     text-align: justify;
     font-size: 0.8em;
 }
 
-figure {
+figure div {
     text-align: center;
 }
 
